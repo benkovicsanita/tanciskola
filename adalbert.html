@@ -7,6 +7,36 @@
             table, th, td {
                 border-collapse: collapse;
                 border: 1px dotted black;
+              
+            }
+            table.center {
+                margin-left: auto;
+                margin-right: auto;}
+            h1{text-align: center;}
+            
+            blockquote{text-align: center;}
+            img {
+                display: block;
+                margin-top: 50px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            p{
+                text-align: center;
+                margin-bottom: 0;
+            }
+           
+            address{text-align: center;}
+
+            .eszkozok{
+                margin-right: auto;
+                margin-left: auto;
+                max-width: 800px;
+            }
+            .eszkozok-container{
+                display: flex;
+                justify-content: center;
+
             }
         </style>
     </head>
@@ -15,20 +45,22 @@
         <img src="img/tanc.jpg" alt=tanc width="300">
         <blockquote>“A tánc a legmagasztosabb, a legmegindítóbb és a legszebb a művészetek között, mert nem puszta lefordítása és absztraktálása az életnek, hanem az élet maga.” – Ellis Havelock</blockquote>
         <p>
-            Kovács Adalbert "Béla" vagyok. A Bidapesti Kortásrs balettban táncolok immár 15 éve. Gyerekkorom óta táncolok, amikor nagymamám elvitt egy balett előadásra, azonnal beleszerettem ebbe a világba. Onnantól rendszeresen kellett vinnie és a 10. szülinapomra is balett bérletet kértem.
+            Kovács Adalbert "Béla" vagyok. A Budapesti Kortásrs balettban táncolok immár 15 éve. Gyerekkorom óta táncolok, amikor nagymamám elvitt egy balett előadásra, azonnal beleszerettem ebbe a világba. Onnantól rendszeresen kellett vinnie és a 10. szülinapomra is balett bérletet kértem.
             Szívügyem, hogy mindenkinek átadjam azt az életérzést, ami maga a Tánc. Fantasztikus érzés, amikor először mindenki félve jön az első órára, majd 4-5 alkalom után teljesen felszabadulva és önmagukat adva táncolják végig az órát. Ha érdekel a tánc világa, szeretnéd kipróbálni, akkor ne habozz, csatlakozz hozzánk! Várunk szeretettel!
         </p>
         <p>
-            Az órára ne felejtsd el az alábbiakat magaddal hozni:
-            
-            <Ul>
-                <li>hölgyek: közepesen magassarkú cipőt; urak: alkalmi cipő</li>
-                <li>kis törölköző (hidd el, meleged lesz 😀)</li>
-                <li>vizet (a fenti ok miatt)</li>
-                <li>tánc iránti érdeklődést és nyitottságot</li>
-            </Ul>
+            <p>Az órára ne felejtsd el az alábbiakat magaddal hozni:</p>
+            <div class="eszkozok-container">
+                <ul >
+                    <li>hölgyek: közepesen magassarkú cipőt; urak: alkalmi cipő</li>
+                    <li>kis törölköző (hidd el, meleged lesz 😀)</li>
+                    <li>vizet (a fenti ok miatt)</li>
+                    <li>tánc iránti érdeklődést és nyitottságot</li>
+                </ul>
+            </div>
         </p>
-        <table>
+       
+        <table class="center">
             <thead>
                 <tr>
                     <th></th>
@@ -41,17 +73,17 @@
             </thead>
             <tbody>
                 <tr>
-                  <td>kezdő I.szamba</td>
-                  <td>14:00-14:50</td>
-                  <td>14:00-14:50</td>
-                  <td>14:00-14:50</td>
-                  <td>14:00-14:50</td>
-                  <td>14:00-14:50</td>
+                <td>kezdő I.szamba</td>
+                <td>14:00-14:50</td>
+                <td>14:00-14:50</td>
+                <td>14:00-14:50</td>
+                <td>14:00-14:50</td>
+                <td>14:00-14:50</td>
                 </tr>
                 <tr>
                     <td>kezdő II.szamba</td>
                     <td>15:00-15:50</td>
-                    <td>15:00-15:50/td>
+                    <td>15:00-15:50</td>
                     <td>15:00-15:50</td>
                     <td>15:00-15:50</td>
                     <td>15:00-15:50</td>
@@ -59,7 +91,7 @@
                 <tr>
                     <td>gyermek társastánc</td>
                     <td>16:00-16:50</td>
-                    <td>16:00-16:50/td>
+                    <td>16:00-16:50</td>
                     <td>16:00-16:50</td>
                     <td>16:00-16:50</td>
                     <td>16:00-16:50</td>
@@ -67,13 +99,14 @@
                 <tr>
                     <td>haladó szamba</td>
                     <td>17:00-17:50</td>
-                    <td>17:00-17:50/td>
+                    <td>17:00-17:50</td>
                     <td>17:00-17:50</td>
                     <td>17:00-17:50</td>
                     <td>17:00-17:50</td>
                 </tr>
             </tbody>
         </table>
+       
         <hr>
         <p>
             <address>
@@ -92,7 +125,9 @@
             <style>.mapouter
             {
                 position:relative;
-                text-align:right;
+                margin-left: auto;
+                margin-right: auto;
+       
                 height:500px;
                 width:600px;
             }.gmap_canvas {
