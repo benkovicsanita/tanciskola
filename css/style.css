@@ -11,11 +11,14 @@ table.center {
 
 h1 {
     text-align: center;
+    color: white
 }
 
 blockquote {
     text-align: center;
-    border: ridge grey
+    border: ridge white;
+    color: white;
+    
 }
 
 .images {
@@ -30,6 +33,7 @@ blockquote {
  p {
     text-align: center;
     margin-bottom: 0;
+    color: white;
 }
 
 address {
@@ -40,15 +44,17 @@ address {
     margin-right: auto;
     margin-left: auto;
     max-width: 800px;
+    
 }
     
 .eszkozok-container {
     display: flex;
     justify-content: center;
+    color: white;
 }
     
 body {
-    background-image: url('../img/szurke.jpg');
+    background-image: url('../img/background.jpg');
  }
 
 .mapouter {
